@@ -1,13 +1,31 @@
 body {
-font-family: Arial;
-background-color: #f5f5f5;
-margin: 40px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 40px;
 }
 
 h1 {
-color: navy;
+  color: #1a237e;
+  font-size: 40px;
+}
+
+p {
+  font-size: 18px;
+  max-width: 700px;
 }
 
 a {
-margin-right: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1a237e;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  margin-top: 20px;
+  border-radius: 10px;
 }
