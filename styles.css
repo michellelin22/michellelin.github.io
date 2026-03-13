@@ -1,7 +1,9 @@
+/* general page styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f3f3f7;
+  background-color: #f2f2f2; /* gray background */
   margin: 0;
+  border-top: 8px solid #c9b6ff; /* light purple top border */
 }
 
 /* top navigation bar */
@@ -14,11 +16,13 @@ header {
   align-items: center;
 }
 
+/* site title */
 header h1 {
   font-size: 22px;
   margin: 0;
 }
 
+/* navigation links */
 nav a {
   color: white;
   text-decoration: none;
@@ -30,37 +34,39 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* main content card */
+/* main content container */
 .container {
   max-width: 900px;
   margin: 60px auto;
   background: white;
   padding: 40px;
   border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
 }
 
+/* section headings */
 .container h2 {
   color: #333;
   margin-bottom: 20px;
 }
 
-/* image */
+/* images */
 img {
   width: 100%;
   border-radius: 10px;
   margin: 20px 0;
 }
 
-/* paragraph text */
+/* paragraph styling */
 p {
   line-height: 1.6;
   color: #444;
 }
 
-/* list styling */
+/* lists */
 ul {
   margin-top: 15px;
+  padding-left: 20px;
 }
 
 li {
